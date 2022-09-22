@@ -1,0 +1,158 @@
+body {
+  
+    background-image:url(https://i.pinimg.com/550x/f5/95/51/f59551704a1a6f37c546105a4908fb6e.jpg)
+    }
+    
+    
+    .DARKSIDE{
+      height:100px;
+        widht:100%;
+      background-image: linear-gradient(gre rgb(46, 44, 44));
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .logo {
+        color: red;
+        font-size: 100px;
+    
+    }
+    span {
+        color: antiquewhite;
+      font-size: 100px;
+    }
+    
+      nav ul li 
+      { list-style-type: none;
+        display: inline-block;
+        padding: 10px,20px;
+
+
+      }
+
+      * {
+        font-family:Courier New, Geneva, serif;
+        font-size:15px;
+        }
+        
+        ul {
+        margin: 20px;
+        padding: 10px;;
+        }
+        
+        li {
+        list-style: none; 
+        margin: 20px;
+        display: inline;
+        }
+
+        li a {
+        padding: 5px 10px; 
+        margin: 10px;;
+        border: 1px solid red; 
+        background: black;
+        text-decoration: none;
+        color:red;
+        /* cantos arredondados */
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        border-radius:5px;
+        }
+        li a:hover {
+        background: red;
+        color: #000; 
+        border-color: red;
+        }
+.eu:hover { background: red;
+    color: #000; 
+    border-color: red;}
+
+        button {
+            border: none;
+            background: red;
+            padding: 45px,600px;
+            border-radius: 50px;
+          font-weight: bold;
+          font-size: 20px;
+            transition: .4s;
+        }
+button:hover {
+  transform: scale (2.3);
+  cursor: pointer;
+}
+
+
+.verde {
+    margin: auto;
+    width: 90%;
+    border-radius: 25px;
+    margin-top: 300px;
+    padding: 10px;
+    background-color: red;
+    flex-flow: row;
+    
+}
+
+.pink {font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 430px;
+    background-color: black;
+    border: solid black 10px;
+    border-radius: 30px;}
+
+.lime {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    width: 100%;
+    border: 0px solid red;
+}
+
+.heroes {
+    
+    display: flexbox;
+    justify-content: inline;
+    flex-flow: row;
+    align-items: initial;
+    width: 430px;
+    height: 430px;
+    border-radius: 30px;
+}
+
+p {color: antiquewhite;}
+
+
+
+
+img {
+    height: 400px;
+    width: auto;
+    display:flexbox;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 150px;
+    border-radius: 100px;
+}
+
+h1 {
+    color: antiquewhite;
+    display:flex;
+    display: inline;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
